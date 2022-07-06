@@ -220,3 +220,15 @@ h3{
     margin-bottom: auto;
     vertical-align: middle;
 }
+.social{
+    margin: 10px auto 30px auto;
+    justify-content: justify;
+    text-align: center;
+}
+footer{
+    height: 177px;
+    background-color: #0b1233;
+    text-align: center;
+    padding-top: 20px;
+    color: #fffefe;
+}
