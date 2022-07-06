@@ -30,7 +30,6 @@ body{
     font-family: 'inter';
     font-weight: bold;
     font-size: 45px;
-    text-align: center;
     margin-bottom: auto;
     margin-top: 120px;
 }
@@ -40,6 +39,14 @@ body{
     font-weight: bold;
     font-size: 65px;
     margin-bottom: auto;
+}
+.left-black-h{
+    text-align: left;
+    font-family: 'inter';
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: auto;
+    margin-top: 120px;
 }
 #white-button{
     padding: 12px 16px;
@@ -116,7 +123,7 @@ h3{
     width: 360px;
     height: 352px;
     background-color: beige;
-    padding: 50px 50px 0px 50px;
+    padding: 60px 60px 0px 60px;
     margin: 60px 7.5px 60px 7.5px;
     
 }
@@ -124,13 +131,54 @@ h3{
     width: 360px;
     height: 352px;
     background-color: peachpuff;
-    padding: 50px 50px 0px 50px;
+    padding: 60px 60px 0px 60px;
     margin: 60px 7.5px 60px 7.5px;
 }
 #education{
     width: 360px;
     height: 352px;
     background-color: khaki;
-    padding: 50px 50px 0px 50px;
+    padding: 60px 60px 0px 60px;
     margin: 60px 7.5px 60px 7.5px;
+}
+.seeking-help{
+    display: flex;
+    justify-content: center;
+   
+}
+#help-img-1{
+    height: 477px;
+    width: 550px;
+    background-image: url(images/donation0.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: skyblue;
+    background-blend-mode:multiply;
+    margin-top: auto;
+}
+.help-txt{
+    height: 470px;
+    width: 450px;
+    text-align: left;
+    margin: 60px;
+    
+}
+.how-to-contribute{
+    padding: 12px 16px;
+    background-color: royalblue;
+    color: white;
+    border-radius: 4px;
+    font-weight: 700;
+    margin-top: 10px;
+    border: none;
+}
+#help-img-2{
+    height: 477px;
+    width: 550px;
+    background-image: url(images/donation7.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: skyblue;
+    background-blend-mode:multiply;
+    margin-top: 120px;
 }
