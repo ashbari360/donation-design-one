@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+}
+
+.feature{
+    margin: 0px;    
+    padding: 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-image: url(images/donation9.jpg);
+    background-color: maroon;
+    background-blend-mode:multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position-y: -170px;
+    color: white;
+    
+}
+
+.main-call{
+    height: 450px;
+    width: 100%;
+    margin: 0px; 
+    
+}
+.black-h{
+    text-align: center;
+    font-family: 'inter';
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: auto;
+    margin-top: 120px;
+}
+.white-h{
+    text-align: center;
+    font-family: 'inter';
+    font-weight: bold;
+    font-size: 65px;
+    margin-bottom: auto;
+}
+#white-button{
+    padding: 12px 16px;
+    background-color: #fffefe;
+    border: none;
+    color: rgb(179, 27, 27);
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 50px;
+    
+}
+p{
+    font-family:'Poppins';
+    
+    
+}
+h3{
+    font-family: 'Poppins';
+    font-weight:600;
+    font-size: 24px;
+    margin-top:16px;
+}
+#tkbox{
+    font-size: 30px;
+    font-family: 'inter';
+    font-weight: bold;
+    height: 123px;
+    width: 135px;
+    border: none;
+    border-radius: 8px;
+    margin: 5px;
+}
+#tkbox:hover {
+    background-color: maroon;
+    color: white;
+}
+.amount-d{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+#open-amount{
+    width: 765px;
+    margin-top: 80px;
+    border: none;
+    border-bottom: 1px solid black;
+    text-align: center;
+    height: 30px;
+}
+#open-amount:focus,
+    select:focus,
+    textarea:focus,
+    button:focus {
+        outline: none;
+}
+#donate-button{
+    padding: 12px 16px;
+    background-color: maroon;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 10px;
+    border: none;
+}
+
+.donation-p{
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    
+}
+#foodbox{
+    width: 360px;
+    height: 352px;
+    background-color: beige;
+    padding: 50px 50px 0px 50px;
+    margin: 60px 7.5px 60px 7.5px;
+    
+}
+#shelter{
+    width: 360px;
+    height: 352px;
+    background-color: peachpuff;
+    padding: 50px 50px 0px 50px;
+    margin: 60px 7.5px 60px 7.5px;
+}
+#education{
+    width: 360px;
+    height: 352px;
+    background-color: khaki;
+    padding: 50px 50px 0px 50px;
+    margin: 60px 7.5px 60px 7.5px;
+}
